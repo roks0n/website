@@ -1,0 +1,16 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  background: #f5f6fa;
+  color: #000;
+  font-family: 'Titillium Web', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
