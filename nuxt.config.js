@@ -36,6 +36,9 @@ module.exports = {
       }
     }
   },
+  plugins: [
+    { src: '~plugins/ga.js', ssr: false }
+  ],
   modules: [
     '@nuxtjs/font-awesome',
     '@nuxtjs/axios',
