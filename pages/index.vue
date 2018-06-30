@@ -13,8 +13,8 @@
       </div>
       <div class="benefits__item">
         <div class="benefits__item__title">Daily payouts</div>
-        <div class="benefits__item__value">15:00</div>
-        <div class="benefits__item__smaller">GMT</div>
+        <div class="benefits__item__value">13:00</div>
+        <div class="benefits__item__smaller">UTC</div>
       </div>
     </div>
 
@@ -54,9 +54,6 @@
         If you are amongst our voters, thank you for supporting us! ❤️ We will keep doing our best to
         not disappoint. If you have any feedback, make sure to let us know!
       </div>
-      <router-link class="forging-status__button" :to="{ name: 'how-to-vote-for-an-ark-delegate'}" v-if=" delegate.rank > 51">
-        vote for us
-      </router-link>
     </div>
   </div>
 </template>
