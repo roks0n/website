@@ -37,6 +37,7 @@ module.exports = {
     }
   },
   plugins: [
+    { src: '~plugins/vue-notification', ssr: false},
     { src: '~plugins/ga.js', ssr: false }
   ],
   modules: [

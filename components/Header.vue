@@ -11,6 +11,9 @@
       <div class="header__navigation__item">
         <router-link :to="{ name: 'proposal'}">Proposal</router-link>
       </div>
+      <div class="header__navigation__item">
+        <router-link :to="{ name: 'faucet'}">Faucet</router-link>
+      </div>
      <!--  <div class="header__navigation__item">
         <router-link :to="{ name: 'news'}">News & Updates</router-link>
       </div> -->
