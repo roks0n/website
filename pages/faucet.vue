@@ -18,7 +18,7 @@
 
       <p class="faucet__info">
         This is a V2 devnet faucet which gives 10 DARK to a requested address. You can request DARK
-        every 24h.
+        every 24h. This faucet is ran using Ark V2 plugin <a href="https://github.com/deadlock-delegate/ark-faucet" target="_blank">@deadlock/ark-faucet</a>.
       </p>
     </div>
 
@@ -61,7 +61,7 @@ export default {
       let message
       let type
       try {
-        const respose = await axios.post('http://206.189.31.143:5000/rolls', {address: this.address})
+        const respose = await axios.post('https://r2d2.deadlock.sh/rolls', {address: this.address})
         title = 'Success!'
         message = 'You should receive some DARK shortly.'
         type = 'success'
