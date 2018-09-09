@@ -125,6 +125,10 @@ export default {
   &__info {
     color: #bfbfbf;
     font-size: 0.9em;
+
+    a {
+      color: #bfbfbf;
+    }
   }
 }
 </style>
